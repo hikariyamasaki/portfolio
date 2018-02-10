@@ -1,0 +1,253 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* ----top---- */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top {
+  height: 500px;
+  background-image: url(./image/niku.jpg);
+  background-size: cover;
+}
+
+.top-inner {
+  height: 500px;
+  background-color: rgba(255, 250, 250, 0.5);
+}
+
+.accouts {
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.hatena {
+  width: 35px;
+  margin-bottom: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.icon {
+  font-size: 35px;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #FFF;
+  margin-bottom: 5px;
+}
+
+/* twitterのホバー */
+.fa-twitter:hover {
+  color: #55acee;
+}
+
+.fa-github:hover {
+  color: rgb(255, 157, 10);
+}
+
+.hatena:hover {
+  content: url(./Hatena-Blog-Logo/hatenablog-logo.png);
+}
+
+.top-title {
+  color: #FFF;
+  /* font-family: "PT Mono"; */
+  font-family: 'Lobster', cursive;
+  /* font-weight: 100; */
+  font-size: 40px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  padding-top: 170px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*----写真のところ---- */
+
+
+.hika {
+  padding-top: 100px;
+  /* background-color: red; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hika-image{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.my-name {
+  margin-top: 10px;
+  display: block;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'Lobster', cursive; */
+  /* font-weight: bold; */
+}
+
+.section-hika-accouts {
+  padding-top: 30px;
+  text-align: center;
+  /* background-color: orange; */
+  margin: 0 auto;
+  height: 100px;
+}
+
+.icon-section-hika {
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.hatena-icon-section-hika {
+  width: 50px;
+  margin-bottom: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.twitter {
+  color: #55acee;
+  /* box-shadow: 左右の向きpx  上下の向きpx ぼかしpx 広がりpx 色 内側指定; */
+}
+
+.github {
+  color: rgb(255, 157, 10);
+}
+
+.mail-icon {
+  color: gray;
+}
+
+/* ----My Skils---- */
+.section-skil {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-family: 'Courgette', cursive;
+}
+
+.section-skil h2{
+  margin-left: 100px;
+}
+
+.skil-wrapper {
+  padding: 0 200px;
+}
+
+
+.my-skil{
+  text-align: center;
+  display: inline-block;
+  /* background-color: #fff; */
+  margin: 10px 20px
+}
+
+.fa-html5 {
+  color: #E44D26;
+}
+
+.fa-css3-alt {
+  color: #3799D6;
+}
+
+.skil-icon {
+  font-size: 70px;
+}
+
+.my-skil p{
+  font-family: Arial Black;
+}
+
+
+/* ----My Products---- */
+.section-product {
+  /* background-color: orange; */
+  margin-bottom: 50px;
+}
+
+
+.section-product h2{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.product {
+  border-radius: 10px;
+  margin-left: 200px;
+  width: 800px;
+  padding: 20px;
+  display: flex;
+  background-color: rgba(156, 218, 233, 0.7);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.product-image {
+  text-align: center;
+  border-radius: 15px;
+  /* padding-top: 5px; */
+  width: 100px;
+  height: 80px;
+  background-color: #3AC9DB;
+}
+
+.product-icon {
+  margin: 15px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.inner {
+  padding: 0 10px;
+}
+
+.product-name {
+  float: left;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: rgb(67, 69, 69);
+}
+
+.used-skil li{
+  color: #fff;
+  /* font-family: Arial Black; */
+  font-weight: bold;
+  border-radius: 23px;
+  padding: 5px 15px;
+  display: inline-block;
+}
+
+.used-html {
+  background-color: #E44D26;
+}
+
+.used-css3 {
+  background-color: #3799D6;
+}
+
+
+.used-js {
+  background-color: #D6BA33;
+}
