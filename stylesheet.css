@@ -224,6 +224,9 @@ li {
 .inner {
   padding: 0 10px;
 }
+.product-name a{
+  text-decoration: none;
+}
 
 .product-name {
   float: left;
