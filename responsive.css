@@ -32,6 +32,7 @@
 
   .hika {
     padding-top: 50px;
+    margin-bottom: 50px;
   }
 
   .my-name {
@@ -50,16 +51,19 @@
   }
 
   .skil-wrapper {
-    width: 70%;
+    width: 80%;
     padding: 0 auto;
   }
 
   .skil-icon {
-    font-size: 80px;
+    font-size: 50px;
   }
 
+  .my-skil {
+    margin: 0 10px;
+  }
   .my-skil p {
-    font-weight: bold;
+    font-size: 15px;
   }
 
   .product {
@@ -68,32 +72,52 @@
   }
 
   .section-title {
-    margin-left: 45px;
+    margin-left: 25px;
     margin-bottom: 20px;
-    font-size: 37px;
+    font-size: 25px;
 }
 
   .inner {
     width: 100%;
   }
 
+  .product {
+    padding: 10px;
+  }
+
   .product-name {
     width: 100%;
     margin-bottom: 0;
     margin-right: 0;
+    font-size: 25px;
+  }
+  .product-name a{
+    text-decoration: none;
+  }
+
+  .product-icon {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .product-image {
+    border-radius: 10px;
+    width: 90px;
+    height: 60px;
+    margin-top: 3px;
   }
 
   .inner-link {
     display: none;
   }
-
-  .product-name a{
-    text-decoration: none;
-  }
-
   .inner li{
     float: left;
     display: block;
-    margin: 0 5px;
+    margin: 0 4px;
+    font-size: 10px;
+    padding: 5px 6px;
+    border-radius: 5px;
   }
 }
