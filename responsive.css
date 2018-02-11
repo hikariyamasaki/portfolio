@@ -1,0 +1,99 @@
+
+
+
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+
+}
+
+/* モバイル向けレイアウト */
+@media (max-width: 670px) {
+
+  .accouts {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .top-title {
+    font-size: 40px;
+    padding-top: 150px;
+  }
+
+  .top {
+    height: 300px;
+  }
+
+  .top-inner {
+    height: 300px;
+  }
+
+  .hika {
+    padding-top: 50px;
+  }
+
+  .my-name {
+    font-size: 20px;
+  }
+
+  .icon-section-hika {
+    font-size: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  .hatena-icon-section-hika {
+    width: 60px;
+  }
+
+  .skil-wrapper {
+    width: 70%;
+    padding: 0 auto;
+  }
+
+  .skil-icon {
+    font-size: 80px;
+  }
+
+  .my-skil p {
+    font-weight: bold;
+  }
+
+  .product {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .section-title {
+    margin-left: 45px;
+    margin-bottom: 20px;
+    font-size: 37px;
+}
+
+  .inner {
+    width: 100%;
+  }
+
+  .product-name {
+    width: 100%;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .inner-link {
+    display: none;
+  }
+
+  .product-name a{
+    text-decoration: none;
+  }
+
+  .inner li{
+    float: left;
+    display: block;
+    margin: 0 5px;
+  }
+}

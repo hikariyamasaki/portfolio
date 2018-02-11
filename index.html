@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <!-- Googleフォントのリンク -->
@@ -15,11 +16,12 @@
 <body>
   <div class="top container">
     <div class="top-inner">
+      <!-- topのアカウント部分 -->
       <div class="accouts">
         <a href="https://twitter.com/sakiyama0101?lang=ja" target="_blank"><i class="fab fa-twitter icon"></i></a>
         <a href="https://github.com/hikariyamasaki" target="_blank"><i class="fab fa-github icon"></i></a>
         <a href="http://hyamasaki0101.hatenablog.com/" target="_blank"><img src="Hatena-Blog-Logo/hatenablog-logo1.png" class="hatena"/></a>
-        <a><i class="fas fa-envelope icon"></i></a>
+        <!-- <a><i class="fas fa-envelope icon"></i></a> -->
       </div>
       <h1 class="top-title">Yamasaki Hikari</h1>
     </div>
@@ -32,7 +34,12 @@
         <a href="https://twitter.com/sakiyama0101?lang=ja" target="_blank"><i class="fab fa-twitter icon-section-hika twitter"></i></a>
         <a href="https://github.com/hikariyamasaki" target="_blank"><i class="fab fa-github icon-section-hika github"></i></a>
         <a href="http://hyamasaki0101.hatenablog.com/" target="_blank"><img src="Hatena-Blog-Logo/hatenablog-logo.png" class="hatena-icon-section-hika"/></a>
-        <i class="fas fa-envelope icon-section-hika mail-icon"></i>
+      </div>
+      <div class="send-mail">
+        <i class="fas fa-envelope mail"></i>
+        <a>
+          -------@gmail.com
+        </a>
       </div>
     </div>
     <div class="container section-skil">
@@ -48,19 +55,23 @@
           </div>
         </div>
     </div>
-    <div class="section-product">
-      <h2 class="section-title">My Products</h2>
-      <div class="product-wrapper">
-        <div class="product">
-          <div class="product-image"><i class="fas fa-stopwatch product-icon"></i></div>
-          <div class="inner">
-            <h3 class="product-name">Timer</h3>
-            <ul class="used-skil">
-              <li class="used-html">HTML5</li>
-              <li class="used-css3">CSS3</li>
-              <li class="used-js">JS</li>
-            </ul>
-            <a href="https://hikariyamasaki.github.io/timer/index.html" target="_blank">https://hikariyamasaki.github.io/timer/index.html</a>
+    <div class="container">
+      <div class="section-product">
+        <h2 class="section-title">My Products</h2>
+        <div class="product-wrapper">
+          <div class="product">
+            <div class="product-image"><i class="fas fa-stopwatch product-icon"></i></div>
+            <div class="inner">
+                <h3 class="product-name">
+                  <a href="https://hikariyamasaki.github.io/timer/index.html">Timer</a>
+                </h3>
+              <ul class="used-skil">
+                <li class="used-html">HTML5</li>
+                <li class="used-css3">CSS3</li>
+                <li class="used-js">JS</li>
+              </ul>
+              <a class="inner-link" href="https://hikariyamasaki.github.io/timer/index.html" target="_blank">https://hikariyamasaki.github.io/timer/index.html</a>
+            </div>
           </div>
         </div>
       </div>

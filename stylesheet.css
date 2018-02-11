@@ -10,7 +10,6 @@ li {
   list-style: none;
 }
 
-
 /* ----top---- */
 .container {
   width: 1170px;
@@ -84,6 +83,7 @@ li {
   padding-top: 100px;
   /* background-color: red; */
   margin: 0 auto;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -108,7 +108,7 @@ li {
   text-align: center;
   /* background-color: orange; */
   margin: 0 auto;
-  height: 100px;
+  height: 75px;
 }
 
 .icon-section-hika {
@@ -135,7 +135,14 @@ li {
   color: rgb(255, 157, 10);
 }
 
-.mail-icon {
+.mail {
+  font-size: 20px;
+  color: gray;
+  margin-right: 5px;
+}
+
+.send-mail a{
+  font-size: 20px;
   color: gray;
 }
 
@@ -146,14 +153,15 @@ li {
 
 .section-title {
   font-family: 'Courgette', cursive;
-}
-
-.section-skil h2{
   margin-left: 100px;
+  margin-bottom: 20px;
+  color: rgb(67, 69, 69);
 }
 
 .skil-wrapper {
-  padding: 0 200px;
+  width: 70%;
+  margin: 0 auto;
+  /* padding: 0 200px; */
 }
 
 
@@ -161,7 +169,7 @@ li {
   text-align: center;
   display: inline-block;
   /* background-color: #fff; */
-  margin: 10px 20px
+  margin: 0px 20px
 }
 
 .fa-html5 {
@@ -178,6 +186,7 @@ li {
 
 .my-skil p{
   font-family: Arial Black;
+  color: rgb(96, 98, 98);
 }
 
 
@@ -187,11 +196,6 @@ li {
   margin-bottom: 50px;
 }
 
-
-.section-product h2{
-  margin-left: 100px;
-  margin-bottom: 30px;
-}
 
 .product {
   border-radius: 10px;
