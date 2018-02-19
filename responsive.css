@@ -30,6 +30,11 @@
     height: 300px;
   }
 
+  .hika-image {
+    width: 100px;
+    height: 100px;
+  }
+
   .hika {
     padding-top: 50px;
     margin-bottom: 50px;
@@ -94,6 +99,7 @@
   }
   .product-name a{
     text-decoration: none;
+    font-size: 18px;
   }
 
   .product-icon {
