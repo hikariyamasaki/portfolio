@@ -9,7 +9,7 @@
 
   let  productName = ['Timer','My Portfolio','Introduction of Tosashimizu City.']
   let  productLink = [
-                      'https://hikariyamasaki.github.io/timer/index.html',
+                      'https://hikariyamasaki.github.io/timer/view.html',
                       'https://hikariyamasaki.github.io/portfolio',
                       'https://hikariyamasaki.github.io/IntroductionOfTosashimizu']
 
