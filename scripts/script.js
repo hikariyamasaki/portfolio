@@ -2,7 +2,7 @@
 
 
   // 1. 最初にやること、「繰り返したいHTMLを入れる場所にidを指定した。
-  // divProduct とは、 idがproduct-wrapperになっているdivタグのこと。
+  // divProduct とは、 idがproduct-wになっているdivタグのこと。
   // divProductの中に、下のdivProductElementに代入したHTMLを入れていく(2)ことで
   // 本体(index.html)の場所に、その代入したHTMLを書き込む。-> divProduct.innerHTML
   let divProduct = document.getElementById('product-w')
